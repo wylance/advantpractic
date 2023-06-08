@@ -1,0 +1,720 @@
+body {
+    margin: 0 auto;
+}
+
+.allpage {
+    width: 1400px;
+    height: 1617px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header1 {
+    width: 1130px;
+    height: 60px;
+    position: absolute;
+    left: 136px;
+}
+
+.icon {
+    width: 82.94px;
+    height: 22px;
+}
+
+.icon img { 
+    width: 13.94px;
+    height: 13.94px;
+    position: absolute;
+    left: -1px;
+    top: 23.11px;
+}
+.icon span {
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 24.94px;
+    top: 19px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    font-weight: bold;
+    }
+
+.number {
+    width: 229px;
+    height: 22px;
+    position: absolute;
+    left: 111px;
+    top: 19px;
+}
+
+.number a{
+    text-decoration: none;
+}
+
+.one {
+    font-family: Rubik;
+    font-size: 16px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.two {
+    font-family: Rubik;
+    font-size: 12px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.auth {
+    width: 155px;
+    height: 22px;
+    position: absolute;
+    left: 975px;
+    top: 19px;
+}
+
+.auth a {
+    text-decoration: none;
+    color: #666666;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.line {
+    width: 1130px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left: -1px;
+    top: 59px;
+}
+
+.header2 {
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+.logo {
+    width: 202.3px;
+    height: 21.66px;
+    position: absolute;
+    top: 27px;
+    left: 66px;
+    text-align: justify;
+}
+
+
+.logo a {
+    font-size: 36px;
+    font-family: Bebas Neue;
+    color: #2D9CEE;
+    text-align: center;
+    text-decoration: none
+}
+
+.input {
+    width: 399px;
+    height: 48px;
+    background: #F9F9F9;
+    border-radius: 4px;
+    position: absolute;
+    top: 26px;
+    left: 324px
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    opacity: 0.6;
+}
+
+.input input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: none; 
+    background-color: #F9F9F9;
+    font-family: Rubik;
+}
+
+.other {
+    width: 112px;
+    height: 24px;
+    position: absolute;
+    top: 39px;
+    left: 979px;
+    display: flex;
+}
+
+.heart {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    filter: contrast()
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 45px
+    
+}
+
+.basket {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 90px
+}
+
+.baskettext span {
+    width: 65px;
+    height: 22px;
+    position: absolute;
+    top: 40px;
+    left: 1101px;
+    font-family: Rubik;
+    font-size: 16px;
+    color: #2D9CEE;
+    font-weight: bold;
+}
+
+.basketall {
+    width: 1012px;
+    height: 31px;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 248px;
+    left: 136px;
+}
+
+.items{
+    width: 1130px;
+    height: 331px;
+    position: absolute;
+    top: 311px;
+    left: 136px;
+}
+
+.itemnames {
+    width: 1130px;
+    height: 42.41px;
+    position: absolute;
+    border-bottom: 1px solid #EFEFF4;
+    display: flex;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8A8A8F;
+}
+
+.itemnames img {
+    width: 15px;
+    position: absolute;
+    top: 9px;
+    left: 1096px;
+}
+
+.name1 {
+    position: absolute;
+    left: 20px;
+}
+
+.name2 {
+    position: absolute;
+    left: 560px;
+}
+
+.name3 {
+    position: absolute;
+    left: 750px;
+}
+
+.name4 {
+    position: absolute;
+    left: 950px;
+}
+
+.first-item {
+    width: 1130px;
+    height: 84px;
+    background-color: pink;
+    position: absolute;
+    top: 353.41px;
+    left: 136px;
+}
+.seconditem {
+    width: 1130px;
+    height: 84px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 435.75px;
+    left: 136px;
+}
+
+.itog {
+    width: 1130px;
+    height: 72px;
+    position: absolute;
+    top: 562px;
+    left: 136px;
+    background-color: #F9F9F9;
+}
+
+.itog1 {
+    width: 56px;
+    height: 27px;
+    position: absolute;
+    top: 24px;
+    left: 23;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8A8A8F;
+}
+
+.itog2 {
+    width: 171px;
+    height: 31px;
+    position: absolute;
+    top: 20px;
+    left: 896px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.nameitem {
+    font-family: Rubik;
+    font-size: 14px;
+    width: 148px;
+    height: 16px;
+    position: absolute;
+    top: 715px;
+    left: 136px;
+}
+
+.countitem {
+    font-family: Rubik;
+    font-size: 14px;
+    width: 60px;
+    height: 16px;
+    position: absolute;
+    top: 782px;
+    left: 136px;
+}
+
+.pricecountitem {
+    font-family: Rubik;
+    font-size: 14px;
+    width: 90px;
+    height: 16px;
+    position: absolute;
+    top: 849px;
+    left: 136px;
+}
+
+.firstinput {
+    width: 318px;
+    height: 54px;
+    border: 1px #EFEFF4 solid;
+    border-radius: 4px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 696px;
+    left: 328px;
+}
+
+.picname {
+    width: 544px;
+    height: 49px;
+    position: absolute;
+    top: 32px;
+    left: 21px;
+    display: flex;
+}
+
+.pic img {
+    width: 59px;
+    height: 49px;
+}
+
+.name span {
+    width: 461px;
+    height: 45px;
+    position: absolute;
+    left: 80px;
+    font-family: Rubik;
+    font-weight: bold;
+    color: #2D9CEE;
+    font-size: 18px;
+}
+
+.counter {
+    width: 150px;
+    height: 54px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    left: 520px;
+    top: -20px;
+    text-align: center
+}
+
+.itemcontrol {
+    width: 150px;
+    height: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s all;
+    border-radius: 4px;
+}
+
+.itemcontrol:hover {
+    background-color: gainsboro;
+}
+
+.priceitem {
+    width: 72px;
+    height: 27px;
+    font-family: Rubik;
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    left: 790px
+}
+
+.secondinput {
+    width: 318px;
+    height: 54px;
+    border: 1px #EFEFF4 solid;
+    border-radius: 4px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 763px;
+    left: 328px;
+}
+
+.threeinput {
+    width: 318px;
+    height: 54px;
+    border: 1px #EFEFF4 solid;
+    border-radius: 4px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 830px;
+    left: 328px;
+}
+
+.additem {
+    background-color: #2D9CEE;
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 923px;
+    left: 367px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.footer {
+    width: 1400px;
+    height: 725px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 1039px;
+}
+
+
+.blueblock {
+    width: 1400px;
+    height: 147px;
+    background-color: #2D9CEE;
+}
+
+.groupfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    top: 55px;
+    left: 536px;
+}
+
+.groupfooter input {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: Rubik;
+    border: none;
+    
+}
+
+.groupfooter button {
+    cursor: pointer;
+    width: 129px;
+    height: 40px;
+    position: absolute;
+    left: 408px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: white;
+    background-color: #00186A;
+    border-radius: 4px;
+    font-family: Rubik;
+    font-weight: bold;
+    border: none;
+}
+
+.groupfooter a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    position: absolute;
+    left: 8px;
+    border-radius: 4px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: white;
+    font-family: Rubik;
+    font-weight: bold;
+}
+
+.text p {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-family: Rubik;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    left: 302px;
+    line-height: 27px;
+    top: 45px;
+}
+
+.futer {
+    width: 1200px;
+    height: 578px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 147px;
+    left: 100px;
+}
+
+.sert {
+    width: 263px;
+    height: 150px;
+    background-color: #E74343;
+    position: absolute;
+    top: 102px;
+    left: 901px;
+    border-radius: 4px;
+}
+
+.sert h1 {
+    width: 154px;
+    height: 48px;
+    color: white;
+    position: absolute;
+    top: 75px;
+    font-family: Rubik;
+    font-size: 18px;
+    left: 27px;
+    font-weight: 400px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sert img {
+    width: 53px;
+    height: 56px;
+    position: absolute;
+    top: 17px;
+    left: 22px;
+}
+
+.infofuter {
+    width: 744px;
+    height: 231px;
+    position: absolute;
+    top: 93px;
+    left: 36px;
+}
+
+.infofuter p {
+    color: #C8C7CC;
+}
+
+.catalog {
+    width: 168px;
+    height: 231px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.catalog ul {
+    list-style: none;
+    position: absolute;
+    width: 168px;
+    padding-left: 0;
+    
+}
+
+.catalog li {
+    margin-top: 13px;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: #8A8A8F;
+}
+
+.information {
+    width: 168px;
+    height: 231px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 14px;
+    left: 192px;
+    font-weight: bold;
+}
+
+.information ul {
+    list-style: none;
+    position: absolute; 
+    width: 168px;
+    padding-left: 0;
+    
+}
+
+.information li {
+    margin-top: 13px;
+}
+
+.information a {
+    text-decoration: none;
+    color: #8A8A8F;
+}
+
+.lc {
+    width: 168px;
+    height: 135px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 14px;
+    left: 384px;
+    font-weight: bold;
+}
+
+.lc ul {
+    list-style: none;
+    position: absolute; 
+    width: 168px;
+    padding-left: 0;
+    
+}
+
+.lc li {
+    margin-top: 13px;
+}
+
+.lc a {
+    text-decoration: none;
+    color: #8A8A8F;
+}
+
+.we {
+    width: 168px;
+    height: 135px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 14px;
+    left: 576px;
+    font-weight: bold;
+}
+
+.we ul {
+    list-style: none;
+    position: absolute; 
+    width: 168px;
+    padding-left: 0;
+    
+}
+
+.we li {
+    margin-top: 13px;
+}
+
+.we a {
+    text-decoration: none;
+    color: #8A8A8F;
+}
+
+.lcsogl {
+    position: absolute;
+    width: 1135px;
+    height: 31px;
+    left: 36px;
+    top: 447px;
+    display: flex;
+}
+
+.leftp {
+    width: 133px;
+    height: 18px;
+}
+
+.leftp p {
+    font-size: 14px;
+    color: #C8C7CC;
+    font-family: Rubik;
+    line-height:0.5;
+    
+}
+
+.righta {
+    width: 415px;
+    height: 18px;
+    position: absolute;
+    top: 6px;
+    left: 720px;
+}
